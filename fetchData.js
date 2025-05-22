@@ -16,7 +16,7 @@ const fetchData = async (number) => {
             timeout: 5000,
           });
           tracker.processText(response.data.fact);
-          return (await response).data.fact;
+          return response.data.fact;
         } catch (err) {
           console.log(`Request ${i + 1} failed`, err.message);
           return null;
