@@ -1,0 +1,17 @@
+{
+  "name": "create-a-wordcloud-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "p-limit": "^6.2.0"
+  }
+}
